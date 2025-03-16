@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Find Your Perfect Study Spot at U-M</title>
 </head>
@@ -10,39 +11,37 @@
 <!-- Source from Jackie's code-->
 <header>
     <a href ="#main" class="skip">Skip to Main Content</a>
-        <img src="images/logo.jpg" alt="UMSI Logo">
-          <nav>
+    <img src="images/UMSI.png" alt="UMSI Logo" class="logo">
+        <nav class="navbar">
               <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li class="active"><a href = "studyspaces.html">Find Your Perfect Study Spot at U-M</a></li>
+                <li><a href = "home.html">Home</a></li>
+                <li class="active"><a href = "studyspaces.html">StudySpaces</a></li>
                 <li><a href = "wolverinewellness.html"> WolverineWellness</a></li>
-                <li><a href = "foodpantry.html"> MaizeandBlueCupboard</a></li>
+                <li><a href = "maizeandblue.html"> MaizeandBlueCupboard</a></li>
               </ul>
           </nav>
-          <h1>Discover the Best Study Spaces on Campus</h1>
       </header>
-      <main id="main">
+      <main class="container" id="main">
+        <h1 class="page-title">Find Your Perfect Study Spot at U-M</h1>
           <section>
-              <h2>Top Spots to Focus: Find Your Perfect Study Space on Campus</h2>
+            <div class="study-intro">
+              <h2>Discover the Best Study Spaces on Campus</h2>
               <p> Where productivity meets comfort—your ideal study space awaits!</p>
               <p>The University of Michigan’s campus offers countless study spaces designed to meet the unique needs of graduate students. Whether you prefer quiet solitude, a collaborative workspace, or an energizing atmosphere, there’s a spot just for you.</p>
-             <p>This guide highlights the best places to study on campus based on noise level, helping you find the ideal environment to balance your academic pursuits with well-being. From secluded corners to popular campus landmarks, explore study spots that cater to your preferences—whether you need deep focus, collaborative energy, or a place to recharge.
-                </p>
-              <ol>
-                  <li>Quiet Spaces</li>
-                  <li>Low Noise Spaces</li>
-                  <li>Medium Noise Spaces</li>
-                  <li>High Noise Spaces</li>
-              </ol>
+              <p>This guide highlights the best places to study on campus based on noise level, helping you find the ideal environment to balance your academic pursuits with well-being. From secluded corners to popular campus landmarks, explore study spots that cater to your preferences—whether you need deep focus, collaborative energy, or a place to recharge.</p>
+              <ul>
+                  <li id="quietnoise">Quiet Spaces</li>
+                  <li id="lownoise">Low Noise Spaces</li>
+                  <li id="mediumnoise">Medium Noise Spaces</li>
+                  <li id="highnoise">High Noise Spaces</li>
+              </ul>
+            </div>
           </section>
 
           <section>
+            <div class="quiet-text">
             <h2>Quiet Spaces</h2>
             <p>Stay focused and study without distractions.</p>
-            <figure>
-            <img src="images/LawLibrary.jpg" alt="People working at desks in the Law Library Reading Room, with chandeliers and a coffered ceiling." width="500" height="500">
-                    <figcaption>Law Library Reading Room at Central Campus</figcaption>
-            </figure>
             <article>
                 <h3>Hatcher Reference Room:</h3>
                 <p>Deep focus areas with historical vibes, secluded stacks.</p>
@@ -59,15 +58,19 @@
                 <h3>Michigan Union Basement:</h3>
                 <p> Comfortable seating with minimal interruptions.</p>
             </article>
+            </div>
+            <div>
+            <figure>
+            <img src="images/LawLibrary.jpg" alt="People working at desks in the Law Library Reading Room, with chandeliers and a coffered ceiling." class="quiet-image">
+                    <figcaption>Law Library Reading Room at Central Campus</figcaption>
+            </figure>
+            </div>
         </section>
         
         <section>
+        <div class="low-text">
             <h2>Low Noise Spaces</h2>
             <p>Minimize distractions, maximize learning.</p>
-            <figure>
-                <img src="images/Duderstadt.jpg" alt="Modern Duderstadt Center building with a sleek glass facade and distinctive angular architecture." width="500" height="500">
-                        <figcaption>Duderstadt Center at North Campus</figcaption>
-                </figure>
             <article>
                 <h3>Duderstadt Center:</h3>
                 <p> Great for group work with modern tech and printers, low hum of conversation.</p>
@@ -84,15 +87,17 @@
                 <h3>East Hall (Psychology Area):</h3>
                 <p> Bright, open spaces, mostly quiet throughout the day.</p>
             </article>
+        </div>
+            <figure>
+                <img src="images/Duderstadt.jpg" alt="Modern Duderstadt Center building with a sleek glass facade and distinctive angular architecture." class="low-image">
+                        <figcaption>Duderstadt Center at North Campus</figcaption>
+                </figure>
         </section>
 
         <section>
+        <div class="medium-text">
             <h2>Medium Noise Spaces</h2>
             <p>Find balance between focus and collaboration.</p>
-            <figure>
-                <img src="images/AngellHall.jpg" alt="Neoclassical Greek-style building with large columns and architectural detailing" width="500" height="500">
-                        <figcaption>Angell Hall at Central Campus</figcaption>
-                </figure>
             <article>
                 <h3>Fishbowl (Angell Hall):</h3>
                 <p> Iconic collaborative space with computers.</p>
@@ -109,15 +114,17 @@
                 <h3>School of Information Lounge:</h3>
                 <p> Casual study space with light conversations.</p>
             </article>
+        </div>
+            <figure>
+                <img src="images/AngellHall.jpg" alt="Neoclassical Greek-style building with large columns and architectural detailing" class="medium-image">
+                        <figcaption>Angell Hall at Central Campus</figcaption>
+                </figure>
         </section>
 
         <section>
+        <div class="high-text">
             <h2>High Noise Spaces</h2>
             <p>Engage, collaborate, and thrive in a dynamic environment.</p>
-            <figure>
-                <img src="images/MichiganUnion.jpg" alt="Red and white brick building with the Michigan Union sign" width="500" height="500">
-                        <figcaption>Michigan Union at Central Campus</figcaption>
-                </figure>
             <article>
                 <h3>Michigan Union (Main Areas):</h3>
                 <p> High-energy social hub for casual tasks.</p>
@@ -127,12 +134,26 @@
                 <p>The busiest floor, with conversations and activity. Great for collaborative work or if you don’t mind noise.
                 </p>
             </article>
-            <p>Explore these spaces with ease using this <a href="https://campusinfo.umich.edu/campusmap">interactive</a> campus map, helping you find the perfect spot to match your study needs.</p>
+        </div>
+            <figure>
+                <img src="images/MichiganUnion.jpg" alt="Red and white brick building with the Michigan Union sign" class="high-image">
+                        <figcaption>Michigan Union at Central Campus</figcaption>
+                </figure>
         </section>
+        <div class="campus-map">
+            <p>Explore these spaces with ease using this <a href="https://campusinfo.umich.edu/campusmap">interactive</a> campus map, helping you find the perfect spot to match your study needs.</p>
+        </div>
          <!-- Content taken & modified from ChatGPT with the prompt: "write a description of these places: Quiet Spaces-Hatcher focus spaces/stacks/reference room, Law library reading room, Michigan union basement, Tappan Art History Library; Low Noise Spaces-Duderstadt center, LSA building, School of Education, School of Social Work, East Hall; Medium Noise Spaces-School of Information lounge, Engagement Center, Michigan League, Kinesiology Building, Palmer Commons, UMMA cafe, Pierpont Commons, Fishbowl, Chemistry Building, Dental School, Weiser Hall, Dana Building; High Noise Spaces- Michigan Union, UGLi first floor, Ross building" (2025). ChatGPT (March 23rd, 2023 version) [Large language model]. -->
     </main>
-    <footer>
-        <p>Visit <a href="https://studyspaces.umich.edu/">University of Michigan Study Spaces</a> for more details on finding the perfect study spot.</p>
+    <footer class="footer-container">
+        <p>University of Michigan School of Information</p>
+        <p>&copy Copyright 2025 Regents of the University of Michigan</p>
+        <p> 105 S State Street</p>
+        <p> Ann Arbor, MI 48109-1285</p>
+        <ul>
+            <li><a href = "https://www.si.umich.edu/about-umsi/contact-us" class="footer-links">Contact Us</a></li>
+            <li><a href = "https://www.si.umich.edu/privacy-statement" class="footer-links">Privacy Policy</a></li>
+        </ul>
         </footer>
 </body>
 </html>
