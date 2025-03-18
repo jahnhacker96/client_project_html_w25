@@ -21,31 +21,33 @@
               </ul>
           </nav>
       </header>
-      <h1 class="page-title">Find Your Perfect Study Spot at U-M</h1>
-      <main class="container" id="main">
-          <section>
-            <div class="study-intro">
+      <main class="grid-container" id="main">
+        <h1 class="page-title">Find Your Perfect Study Spot at U-M</h1>
+          <section class="study-intro">
+            <div>
               <h2>Discover the Best Study Spaces on Campus</h2>
               <p> Where productivity meets comfort—your ideal study space awaits!</p>
               <p>The University of Michigan’s campus offers countless study spaces designed to meet the unique needs of graduate students. Whether you prefer quiet solitude, a collaborative workspace, or an energizing atmosphere, there’s a spot just for you.</p>
               <p>This guide highlights the best places to study on campus based on noise level, helping you find the ideal environment to balance your academic pursuits with well-being. From secluded corners to popular campus landmarks, explore study spots that cater to your preferences—whether you need deep focus, collaborative energy, or a place to recharge.</p>
-              <ul>
-                  <li id="quietnoise">Quiet Spaces</li>
-                  <li id="lownoise">Low Noise Spaces</li>
-                  <li id="mediumnoise">Medium Noise Spaces</li>
-                  <li id="highnoise">High Noise Spaces</li>
+              <p><strong>Here are the types of study spaces:</strong><p></p>
+              <ul class="study-intro-list">
+                  <li>Quiet Spaces</li>
+                  <li>Low Noise Spaces</li>
+                  <li>Medium Noise Spaces</li>
+                  <li>High Noise Spaces</li>
               </ul>
+            </div>
             </section>
-              <section>
+            <section>
+            <div class="study-intro">
                 <figure>
                 <img src="images/studying.jpg" alt="A student in a grey sweatshirt studies on their laptop in Hatcher Graduate Library reference room." class="studying-image">
                         <figcaption>A student studies in their laptop in Hatcher Graduate Library Reference Room.</figcaption>
                 </figure>
-                </div>
             </section>
             </div>
 
-          <section>
+          <section class="quiet-noise">
             <div class="quiet-text">
             <h2>Quiet Spaces</h2>
             <p>Stay focused and study without distractions.</p>
@@ -68,7 +70,7 @@
             </div>
             <div>
             </section>
-            <section>
+            <section class="quiet-noise">
             <figure>
             <img src="images/LawLibrary.jpg" alt="People working at desks in the Law Library Reading Room, with chandeliers and a coffered ceiling." class="quiet-image">
                     <figcaption>Law Library Reading Room at Central Campus</figcaption>
@@ -76,7 +78,7 @@
             </div>
         </section>
         
-        <section>
+        <section class="low-noise">
         <div class="low-text">
             <h2>Low Noise Spaces</h2>
             <p>Minimize distractions, maximize learning.</p>
@@ -98,13 +100,13 @@
             </article>
         </div>
     </section>
-    <section>
+    <section class="low-noise">
             <figure>
                 <img src="images/Duderstadt.jpg" alt="Modern Duderstadt Center building with a sleek glass facade and distinctive angular architecture." class="low-image">
                         <figcaption>Duderstadt Center at North Campus</figcaption>
                 </figure>
     </section>
-        <section>
+        <section class="medium-noise">
         <div class="medium-text">
             <h2>Medium Noise Spaces</h2>
             <p>Find balance between focus and collaboration.</p>
@@ -126,14 +128,14 @@
             </article>
         </div>
     </section>
-    <section>
+    <section class="medium-noise">
             <figure>
                 <img src="images/AngellHall.jpg" alt="Neoclassical Greek-style building with large columns and architectural detailing" class="medium-image">
                         <figcaption>Angell Hall at Central Campus</figcaption>
                 </figure>
         </section>
 
-        <section>
+        <section class="high-noise">
         <div class="high-text">
             <h2>High Noise Spaces</h2>
             <p>Engage, collaborate, and thrive in a dynamic environment.</p>
@@ -148,7 +150,7 @@
             </article>
         </div>
        </section>
-       <section>
+       <section class="high-noise">
             <figure>
                 <img src="images/MichiganUnion.jpg" alt="Red and white brick building with the Michigan Union sign" class="high-image">
                         <figcaption>Michigan Union at Central Campus</figcaption>
@@ -160,14 +162,20 @@
          <!-- Content taken & modified from ChatGPT with the prompt: "write a description of these places: Quiet Spaces-Hatcher focus spaces/stacks/reference room, Law library reading room, Michigan union basement, Tappan Art History Library; Low Noise Spaces-Duderstadt center, LSA building, School of Education, School of Social Work, East Hall; Medium Noise Spaces-School of Information lounge, Engagement Center, Michigan League, Kinesiology Building, Palmer Commons, UMMA cafe, Pierpont Commons, Fishbowl, Chemistry Building, Dental School, Weiser Hall, Dana Building; High Noise Spaces- Michigan Union, UGLi first floor, Ross building" (2025). ChatGPT (March 23rd, 2023 version) [Large language model]. -->
     </main>
     <footer class="footer-container">
-        <p>University of Michigan School of Information</p>
-        <p>&copy Copyright 2025 Regents of the University of Michigan</p>
-        <p> 105 S State Street</p>
-        <p> Ann Arbor, MI 48109-1285</p>
-        <ul>
-            <li><a href = "https://www.si.umich.edu/about-umsi/contact-us" class="footer-links">Contact Us</a></li>
-            <li><a href = "https://www.si.umich.edu/privacy-statement" class="footer-links">Privacy Policy</a></li>
-        </ul>
+        <div class="footer-one">
+            <p>University of Michigan School of Information</p>
+            <p>&copy Copyright 2025 Regents of the University of Michigan</p>
+            </div>
+            <div class="footer-two">
+            <p> 105 S State Street</p>
+            <p> Ann Arbor, MI 48109-1285</p>
+            </div>
+            <div class="footer-three">
+            <ul class="footer-three-list">
+                <li><a href = "https://www.si.umich.edu/about-umsi/contact-us" class="footer-links">Contact Us</a></li>
+                <li><a href = "https://www.si.umich.edu/privacy-statement" class="footer-links">Privacy Policy</a></li>
+            </ul>
+           </div>
         </footer>
 </body>
 </html>
